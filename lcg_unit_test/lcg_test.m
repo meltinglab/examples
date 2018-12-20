@@ -15,8 +15,8 @@ x(1) = init;
 for ii = 2:length(x)
 %     x(ii) = uint32(randi(2^32,1) - 1);
 %     x(ii) = lcg_dut(x(ii-1));
-    x(ii) = lcg_dut_call_mex(uint32(x(ii-1)));
-%     x(ii) = lcg_param(x(ii-1), 65539, 0, 2^31);
+%     x(ii) = lcg_dut_call_mex(uint32(x(ii-1)));
+    x(ii) = lcg_param(x(ii-1), 65539, 0, 2^31);
 end
 
 %% Spatial test

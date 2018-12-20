@@ -1,7 +1,7 @@
 <deployment-project plugin="plugin.coder" plugin-version="R2016a">
-  <configuration build-checksum="1271363841" file="D:\svn\misc\prng_function\lcg_unit_test\lcg_dut.prj" location="D:\svn\misc\prng_function\lcg_unit_test" name="lcg_dut" target="target.unifiedcoder" target-name="MATLAB Coder">
+  <configuration build-checksum="1876681410" file="C:\Users\alex8\Desktop\meltinglab_examples\lcg_unit_test\lcg_dut.prj" location="C:\Users\alex8\Desktop\meltinglab_examples\lcg_unit_test" name="lcg_dut" target="target.unifiedcoder" target-name="MATLAB Coder">
     <profile key="profile.mex">
-      <param.BuiltInstrumentedMex>false</param.BuiltInstrumentedMex>
+      <param.BuiltInstrumentedMex />
       <param.RanInstrumentedMex>false</param.RanInstrumentedMex>
       <param.WorkingFolder>option.WorkingFolder.Project</param.WorkingFolder>
       <param.SpecifiedWorkingFolder />
@@ -59,7 +59,7 @@
       <param.ConstantInputs>option.ConstantInputs.CheckValues</param.ConstantInputs>
       <param.EnableCRICodeCoverage>true</param.EnableCRICodeCoverage>
       <param.EnableJIT>false</param.EnableJIT>
-      <param.EnableJITSilentBailOut>false</param.EnableJITSilentBailOut>
+      <param.EnableJITSilentBailOut />
       <param.CheckForIssuesJIT>true</param.CheckForIssuesJIT>
       <unset>
         <param.BuiltInstrumentedMex />
@@ -191,16 +191,16 @@
       <param.CodeReplacementLibrary>None</param.CodeReplacementLibrary>
       <param.DeprecatedCRLFlag>false</param.DeprecatedCRLFlag>
       <param.SameHardware>true</param.SameHardware>
-      <param.Toolchain>Automatically locate an installed toolchain</param.Toolchain>
+      <param.Toolchain>GNU Tools for ARM Embedded Processors</param.Toolchain>
       <param.BuildConfiguration>Faster Builds</param.BuildConfiguration>
       <param.CustomToolchainOptions />
       <var.ToolchainSettingsVisible>true</var.ToolchainSettingsVisible>
-      <param.target.Data />
-      <param.target.ActiveType>option.target.TargetType.MatlabHost</param.target.ActiveType>
-      <param.target.ActiveTarget />
-      <param.HardwareVendor.Production>Generic</param.HardwareVendor.Production>
-      <param.HardwareType.Production>MATLAB Host Computer</param.HardwareType.Production>
-      <param.HWDeviceType.Production>Generic-&gt;MATLAB Host Computer</param.HWDeviceType.Production>
+      <param.target.Data>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;ctdata&gt;&lt;configuredHardware&gt;&lt;hardware version="1.0"&gt;&lt;name&gt;STM32 Nucleo F411RE&lt;/name&gt;&lt;customValues/&gt;&lt;/hardware&gt;&lt;hardware version="1.0"&gt;&lt;name&gt;STM32 Nucleo F767ZI&lt;/name&gt;&lt;customValues/&gt;&lt;/hardware&gt;&lt;/configuredHardware&gt;&lt;/ctdata&gt;</param.target.Data>
+      <param.target.ActiveType>option.target.TargetType.Target</param.target.ActiveType>
+      <param.target.ActiveTarget>STM32 Nucleo F411RE</param.target.ActiveTarget>
+      <param.HardwareVendor.Production>ARM Compatible</param.HardwareVendor.Production>
+      <param.HardwareType.Production>ARM Cortex</param.HardwareType.Production>
+      <param.HWDeviceType.Production>ARM Compatible-&gt;ARM Cortex</param.HWDeviceType.Production>
       <var.instance.enabled.Production>true</var.instance.enabled.Production>
       <param.HardwareSizeChar.Production>8</param.HardwareSizeChar.Production>
       <param.HardwareSizeShort.Production>16</param.HardwareSizeShort.Production>
@@ -209,19 +209,19 @@
       <param.HardwareSizeLongLong.Production>64</param.HardwareSizeLongLong.Production>
       <param.HardwareSizeFloat.Production>32</param.HardwareSizeFloat.Production>
       <param.HardwareSizeDouble.Production>64</param.HardwareSizeDouble.Production>
-      <param.HardwareSizeWord.Production>64</param.HardwareSizeWord.Production>
-      <param.HardwareSizePointer.Production>64</param.HardwareSizePointer.Production>
-      <param.HardwareSizeSizeT.Production>64</param.HardwareSizeSizeT.Production>
-      <param.HardwareSizePtrDiffT.Production>64</param.HardwareSizePtrDiffT.Production>
+      <param.HardwareSizeWord.Production>32</param.HardwareSizeWord.Production>
+      <param.HardwareSizePointer.Production>32</param.HardwareSizePointer.Production>
+      <param.HardwareSizeSizeT.Production>32</param.HardwareSizeSizeT.Production>
+      <param.HardwareSizePtrDiffT.Production>32</param.HardwareSizePtrDiffT.Production>
       <param.HardwareEndianness.Production>option.HardwareEndianness.Little</param.HardwareEndianness.Production>
       <param.HardwareArithmeticRightShift.Production>true</param.HardwareArithmeticRightShift.Production>
-      <param.HardwareLongLongMode.Production>true</param.HardwareLongLongMode.Production>
-      <param.HardwareAtomicIntegerSize.Production>option.HardwareAtomicIntegerSize.Char</param.HardwareAtomicIntegerSize.Production>
-      <param.HardwareAtomicFloatSize.Production>option.HardwareAtomicFloatSize.None</param.HardwareAtomicFloatSize.Production>
+      <param.HardwareLongLongMode.Production>false</param.HardwareLongLongMode.Production>
+      <param.HardwareAtomicIntegerSize.Production>option.HardwareAtomicIntegerSize.Long</param.HardwareAtomicIntegerSize.Production>
+      <param.HardwareAtomicFloatSize.Production>option.HardwareAtomicFloatSize.Double</param.HardwareAtomicFloatSize.Production>
       <param.HardwareDivisionRounding.Production>option.HardwareDivisionRounding.Zero</param.HardwareDivisionRounding.Production>
-      <param.HardwareVendor.Target>Generic</param.HardwareVendor.Target>
-      <param.HardwareType.Target>MATLAB Host Computer</param.HardwareType.Target>
-      <param.HWDeviceType.Target>Generic-&gt;MATLAB Host Computer</param.HWDeviceType.Target>
+      <param.HardwareVendor.Target>ARM Compatible</param.HardwareVendor.Target>
+      <param.HardwareType.Target>ARM Cortex</param.HardwareType.Target>
+      <param.HWDeviceType.Target>ARM Compatible-&gt;ARM Cortex</param.HWDeviceType.Target>
       <var.instance.enabled.Target>false</var.instance.enabled.Target>
       <param.HardwareSizeChar.Target>8</param.HardwareSizeChar.Target>
       <param.HardwareSizeShort.Target>16</param.HardwareSizeShort.Target>
@@ -230,15 +230,15 @@
       <param.HardwareSizeLongLong.Target>64</param.HardwareSizeLongLong.Target>
       <param.HardwareSizeFloat.Target>32</param.HardwareSizeFloat.Target>
       <param.HardwareSizeDouble.Target>64</param.HardwareSizeDouble.Target>
-      <param.HardwareSizeWord.Target>64</param.HardwareSizeWord.Target>
-      <param.HardwareSizePointer.Target>64</param.HardwareSizePointer.Target>
-      <param.HardwareSizeSizeT.Target>64</param.HardwareSizeSizeT.Target>
-      <param.HardwareSizePtrDiffT.Target>64</param.HardwareSizePtrDiffT.Target>
+      <param.HardwareSizeWord.Target>32</param.HardwareSizeWord.Target>
+      <param.HardwareSizePointer.Target>32</param.HardwareSizePointer.Target>
+      <param.HardwareSizeSizeT.Target>32</param.HardwareSizeSizeT.Target>
+      <param.HardwareSizePtrDiffT.Target>32</param.HardwareSizePtrDiffT.Target>
       <param.HardwareEndianness.Target>option.HardwareEndianness.Little</param.HardwareEndianness.Target>
       <param.HardwareArithmeticRightShift.Target>true</param.HardwareArithmeticRightShift.Target>
-      <param.HardwareLongLongMode.Target>true</param.HardwareLongLongMode.Target>
-      <param.HardwareAtomicIntegerSize.Target>option.HardwareAtomicIntegerSize.Char</param.HardwareAtomicIntegerSize.Target>
-      <param.HardwareAtomicFloatSize.Target>option.HardwareAtomicFloatSize.None</param.HardwareAtomicFloatSize.Target>
+      <param.HardwareLongLongMode.Target>false</param.HardwareLongLongMode.Target>
+      <param.HardwareAtomicIntegerSize.Target>option.HardwareAtomicIntegerSize.Long</param.HardwareAtomicIntegerSize.Target>
+      <param.HardwareAtomicFloatSize.Target>option.HardwareAtomicFloatSize.Double</param.HardwareAtomicFloatSize.Target>
       <param.HardwareDivisionRounding.Target>option.HardwareDivisionRounding.Zero</param.HardwareDivisionRounding.Target>
       <param.CastingMode>option.CastingMode.Nominal</param.CastingMode>
       <param.IndentStyle>option.IndentStyle.K&amp;R</param.IndentStyle>
@@ -346,15 +346,9 @@
         <param.CodeReplacementLibrary />
         <param.DeprecatedCRLFlag />
         <param.SameHardware />
-        <param.Toolchain />
         <param.BuildConfiguration />
         <param.CustomToolchainOptions />
         <var.ToolchainSettingsVisible />
-        <param.target.Data />
-        <param.target.ActiveType />
-        <param.target.ActiveTarget />
-        <param.HardwareVendor.Production />
-        <param.HardwareType.Production />
         <param.HWDeviceType.Production />
         <var.instance.enabled.Production />
         <param.HardwareSizeChar.Production />
@@ -364,11 +358,12 @@
         <param.HardwareSizeLongLong.Production />
         <param.HardwareSizeFloat.Production />
         <param.HardwareSizeDouble.Production />
+        <param.HardwareSizeWord.Production />
+        <param.HardwareSizePointer.Production />
+        <param.HardwareSizeSizeT.Production />
+        <param.HardwareSizePtrDiffT.Production />
         <param.HardwareEndianness.Production />
-        <param.HardwareAtomicIntegerSize.Production />
-        <param.HardwareAtomicFloatSize.Production />
-        <param.HardwareVendor.Target />
-        <param.HardwareType.Target />
+        <param.HardwareLongLongMode.Production />
         <param.HWDeviceType.Target />
         <var.instance.enabled.Target />
         <param.HardwareSizeChar.Target />
@@ -378,9 +373,12 @@
         <param.HardwareSizeLongLong.Target />
         <param.HardwareSizeFloat.Target />
         <param.HardwareSizeDouble.Target />
+        <param.HardwareSizeWord.Target />
+        <param.HardwareSizePointer.Target />
+        <param.HardwareSizeSizeT.Target />
+        <param.HardwareSizePtrDiffT.Target />
         <param.HardwareEndianness.Target />
-        <param.HardwareAtomicIntegerSize.Target />
-        <param.HardwareAtomicFloatSize.Target />
+        <param.HardwareLongLongMode.Target />
         <param.CastingMode />
         <param.IndentStyle />
         <param.IndentSize />
@@ -767,9 +765,11 @@
       </unset>
     </profile>
     <param.objective>option.objective.c</param.objective>
-    <param.WorkflowStep>workflowSummary</param.WorkflowStep>
+    <param.WorkflowStep>generateCode</param.WorkflowStep>
     <param.TestSnippets>
-      <item>lcg_dut(13)</item>
+      <item>lcg_dut(uint32(7))</item>
+      <item>lcg_dut(uint32(3))</item>
+      <item>lcg_dut(3)</item>
     </param.TestSnippets>
     <param.DefaultImportExportVariable>config</param.DefaultImportExportVariable>
     <param.ExternalFcnMajority>column</param.ExternalFcnMajority>
@@ -788,7 +788,7 @@
     <param.AutoInferUnboundedSizeThreshold>2048</param.AutoInferUnboundedSizeThreshold>
     <param.EnableFixedPointStep>false</param.EnableFixedPointStep>
     <param.EnableScreener>true</param.EnableScreener>
-    <param.AnnotationChecksum>3654410460</param.AnnotationChecksum>
+    <param.AnnotationChecksum>989444557</param.AnnotationChecksum>
     <var.LegacyTarget />
     <var.MirrorOnOpen>false</var.MirrorOnOpen>
     <param.FixedPointEnabled>false</param.FixedPointEnabled>
@@ -797,13 +797,13 @@
     <param.unifiedParamStorage />
     <var.gc.lastOutputRoot>codegen\lib\lcg_dut</var.gc.lastOutputRoot>
     <var.gc.lastOutputType>C_CODE</var.gc.lastOutputType>
-    <var.gc.preBuildChecksum>4272219770</var.gc.preBuildChecksum>
+    <var.gc.preBuildChecksum>1238564781</var.gc.preBuildChecksum>
     <var.cfi.lastOutputRoot>codegen\mex\lcg_dut</var.cfi.lastOutputRoot>
-    <var.cfi.preBuildChecksum>3969201478</var.cfi.preBuildChecksum>
-    <var.lastCfiTestSnippet>lcg_dut(13)</var.lastCfiTestSnippet>
+    <var.cfi.preBuildChecksum>760799866</var.cfi.preBuildChecksum>
+    <var.lastCfiTestSnippet>lcg_dut(uint32(7))</var.lastCfiTestSnippet>
     <var.outdatedOnRestore>false</var.outdatedOnRestore>
-    <var.lastUserSourceChecksum>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;checksum&gt;&lt;includedFiles&gt;&lt;file&gt;D:\svn\misc\prng_function\lcg_unit_test\lcg_dut.m&lt;/file&gt;&lt;file&gt;D:\svn\misc\prng_function\lcg_unit_test\lcg_param.m&lt;/file&gt;&lt;/includedFiles&gt;&lt;value&gt;3901754043&lt;/value&gt;&lt;/checksum&gt;</var.lastUserSourceChecksum>
-    <var.sourceSetState>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;sourceModel&gt;&lt;primarySourceFiles&gt;&lt;file&gt;D:\svn\misc\prng_function\lcg_unit_test\lcg_dut.m&lt;/file&gt;&lt;file&gt;D:\svn\misc\prng_function\lcg_unit_test\lcg_param.m&lt;/file&gt;&lt;/primarySourceFiles&gt;&lt;fixedPointSourceFiles/&gt;&lt;fixedPointSourceRegistered&gt;false&lt;/fixedPointSourceRegistered&gt;&lt;fixedPointSourceSelected&gt;false&lt;/fixedPointSourceSelected&gt;&lt;/sourceModel&gt;</var.sourceSetState>
+    <var.lastUserSourceChecksum>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;checksum&gt;&lt;includedFiles&gt;&lt;file&gt;C:\Users\alex8\Desktop\meltinglab_examples\lcg_unit_test\lcg_dut.m&lt;/file&gt;&lt;file&gt;C:\Users\alex8\Desktop\meltinglab_examples\lcg_unit_test\lcg_param.m&lt;/file&gt;&lt;/includedFiles&gt;&lt;value&gt;1277604963&lt;/value&gt;&lt;/checksum&gt;</var.lastUserSourceChecksum>
+    <var.sourceSetState>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;sourceModel&gt;&lt;primarySourceFiles&gt;&lt;file&gt;C:\Users\alex8\Desktop\meltinglab_examples\lcg_unit_test\lcg_dut.m&lt;/file&gt;&lt;file&gt;C:\Users\alex8\Desktop\meltinglab_examples\lcg_unit_test\lcg_param.m&lt;/file&gt;&lt;/primarySourceFiles&gt;&lt;fixedPointSourceFiles/&gt;&lt;fixedPointSourceRegistered&gt;false&lt;/fixedPointSourceRegistered&gt;&lt;fixedPointSourceSelected&gt;false&lt;/fixedPointSourceSelected&gt;&lt;/sourceModel&gt;</var.sourceSetState>
     <param.forceMexBuild>false</param.forceMexBuild>
     <param.configImportActive>false</param.configImportActive>
     <var.isGpuCoder>false</var.isGpuCoder>
@@ -969,7 +969,7 @@
     </unset>
     <fileset.entrypoints>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\lcg_dut.m">
-        <Marker>1525874939877</Marker>
+        <Marker>1544788227114</Marker>
       </file>
     </fileset.entrypoints>
     <fileset.testbench />
@@ -979,20 +979,19 @@
           <Input Name="x" typeId="0" />
           <idpTable>
             <type typeId="0">
-              <Class>double</Class>
+              <Class>uint32</Class>
               <Size>1 x 1</Size>
               <Value />
               <InitialValue />
               <UserDefined>false</UserDefined>
               <Complex>false</Complex>
-              <Sparse>false</Sparse>
             </type>
           </idpTable>
         </Inputs>
       </file>
     </fileset.inputtypes>
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\codegen\lib\lcg_dut" name="lcg_dut.lib" optional="false">D:\svn\misc\prng_function\lcg_unit_test\codegen\lib\lcg_dut\lcg_dut.lib</file>
+      <file location="${PROJECT_ROOT}\codegen\lib\lcg_dut" name="lcg_dut.lib" optional="false">C:\Users\alex8\Desktop\meltinglab_examples\lcg_unit_test\codegen\lib\lcg_dut\lcg_dut.lib</file>
     </build-deliverables>
     <workflow />
     <matlab>
