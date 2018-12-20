@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.coder" plugin-version="R2016a">
-  <configuration build-checksum="3277478217" file="D:\git\meltinglab_examples\vumeter\sim\mysqrt_fixed.prj" location="D:\git\meltinglab_examples\vumeter\sim" name="mysqrt_fixed" target="target.unifiedcoder" target-name="MATLAB Coder">
+  <configuration build-checksum="3761963041" file="C:\Users\alex8\Desktop\meltinglab_examples\vumeter\sim\mysqrt_fixed.prj" location="C:\Users\alex8\Desktop\meltinglab_examples\vumeter\sim" name="mysqrt_fixed" target="target.unifiedcoder" target-name="MATLAB Coder">
     <profile key="profile.mex">
       <param.BuiltInstrumentedMex />
       <param.RanInstrumentedMex>false</param.RanInstrumentedMex>
@@ -27,7 +27,7 @@
       <param.EnableDebugging>false</param.EnableDebugging>
       <param.GenerateReport>true</param.GenerateReport>
       <param.LaunchReport>false</param.LaunchReport>
-      <param.ReportPotentialDifferences>false</param.ReportPotentialDifferences>
+      <param.ReportPotentialDifferences>true</param.ReportPotentialDifferences>
       <param.DefaultTestFile />
       <param.MergeInstrumentationResults>false</param.MergeInstrumentationResults>
       <param.VerificationMode>option.VerificationMode.None</param.VerificationMode>
@@ -169,7 +169,7 @@
       <param.GenerateCodeReplacementReport>false</param.GenerateCodeReplacementReport>
       <param.HighlightPotentialDataTypeIssues>false</param.HighlightPotentialDataTypeIssues>
       <param.LaunchReport>false</param.LaunchReport>
-      <param.ReportPotentialDifferences>false</param.ReportPotentialDifferences>
+      <param.ReportPotentialDifferences>true</param.ReportPotentialDifferences>
       <param.SILDebugging>false</param.SILDebugging>
       <param.SILPILCheckConstantInputs>true</param.SILPILCheckConstantInputs>
       <param.SILPILSyncGlobalData>true</param.SILPILSyncGlobalData>
@@ -753,7 +753,7 @@
       </unset>
     </profile>
     <param.objective>option.objective.c</param.objective>
-    <param.WorkflowStep>workflowSummary</param.WorkflowStep>
+    <param.WorkflowStep>verifyCompatibility</param.WorkflowStep>
     <param.TestSnippets>
       <item>mysqrt(0.5)</item>
     </param.TestSnippets>
@@ -763,7 +763,7 @@
     <param.outputfile>${PROJECT_ROOT}\codegen\lib\mysqrt_fix_fixpt\mysqrt_fix.lib</param.outputfile>
     <param.version>R2012a</param.version>
     <param.HasECoderFeatures>true</param.HasECoderFeatures>
-    <param.HasGpuCoder>true</param.HasGpuCoder>
+    <param.HasGpuCoder>false</param.HasGpuCoder>
     <param.mex.mainhtml />
     <param.grt.mainhtml />
     <param.CallGeneratedCodeFromTest>true</param.CallGeneratedCodeFromTest>
@@ -783,13 +783,13 @@
     <param.unifiedParamStorage />
     <var.gc.lastOutputRoot>codegen\lib\mysqrt_fixpt</var.gc.lastOutputRoot>
     <var.gc.lastOutputType>C_CODE</var.gc.lastOutputType>
-    <var.gc.preBuildChecksum>1533580785</var.gc.preBuildChecksum>
+    <var.gc.preBuildChecksum>1166489186</var.gc.preBuildChecksum>
     <var.cfi.lastOutputRoot />
     <var.cfi.preBuildChecksum />
     <var.lastCfiTestSnippet>mysqrt(0.5)</var.lastCfiTestSnippet>
     <var.outdatedOnRestore>false</var.outdatedOnRestore>
-    <var.lastUserSourceChecksum>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;checksum&gt;&lt;includedFiles&gt;&lt;file&gt;D:\git\meltinglab_examples\vumeter\sim\codegen\mysqrt\fixpt\mysqrt_fixpt.m&lt;/file&gt;&lt;/includedFiles&gt;&lt;value&gt;3472451409&lt;/value&gt;&lt;/checksum&gt;</var.lastUserSourceChecksum>
-    <var.sourceSetState>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;sourceModel&gt;&lt;primarySourceFiles&gt;&lt;file&gt;D:\git\meltinglab_examples\vumeter\sim\mysqrt.m&lt;/file&gt;&lt;/primarySourceFiles&gt;&lt;fixedPointSourceFiles&gt;&lt;file&gt;D:\git\meltinglab_examples\vumeter\sim\codegen\mysqrt\fixpt\mysqrt_fixpt.m&lt;/file&gt;&lt;/fixedPointSourceFiles&gt;&lt;fixedPointSourceRegistered&gt;true&lt;/fixedPointSourceRegistered&gt;&lt;fixedPointSourceSelected&gt;true&lt;/fixedPointSourceSelected&gt;&lt;/sourceModel&gt;</var.sourceSetState>
+    <var.lastUserSourceChecksum>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;checksum&gt;&lt;includedFiles&gt;&lt;file&gt;C:\Users\alex8\Desktop\meltinglab_examples\vumeter\sim\codegen\mysqrt\fixpt\mysqrt_fixpt.m&lt;/file&gt;&lt;/includedFiles&gt;&lt;value&gt;2425758219&lt;/value&gt;&lt;/checksum&gt;</var.lastUserSourceChecksum>
+    <var.sourceSetState>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;sourceModel&gt;&lt;primarySourceFiles&gt;&lt;file&gt;C:\Users\alex8\Desktop\meltinglab_examples\vumeter\sim\mysqrt.m&lt;/file&gt;&lt;/primarySourceFiles&gt;&lt;fixedPointSourceFiles&gt;&lt;file&gt;C:\Users\alex8\Desktop\meltinglab_examples\vumeter\sim\codegen\mysqrt\fixpt\mysqrt_fixpt.m&lt;/file&gt;&lt;/fixedPointSourceFiles&gt;&lt;fixedPointSourceRegistered&gt;true&lt;/fixedPointSourceRegistered&gt;&lt;fixedPointSourceSelected&gt;true&lt;/fixedPointSourceSelected&gt;&lt;/sourceModel&gt;</var.sourceSetState>
     <param.forceMexBuild>false</param.forceMexBuild>
     <param.configImportActive>false</param.configImportActive>
     <var.isGpuCoder>false</var.isGpuCoder>
@@ -875,11 +875,11 @@
     <param.ShowCoverage>true</param.ShowCoverage>
     <param.ExcludedFixedPointVerificationFiles />
     <param.ExcludedFixedPointSimulationFiles />
-    <param.InstrumentedBuildChecksum>1398433894</param.InstrumentedBuildChecksum>
+    <param.InstrumentedBuildChecksum>1400021388</param.InstrumentedBuildChecksum>
     <param.FixedPointStaticAnalysisChecksum />
     <param.InstrumentedMexFile>${PROJECT_ROOT}\codegen\mysqrt\fixpt\mysqrt_float_mex.mexw64</param.InstrumentedMexFile>
-    <param.FixedPointValidationChecksum>1992447413</param.FixedPointValidationChecksum>
-    <param.FixedPointSourceCodeChecksum>1443481644</param.FixedPointSourceCodeChecksum>
+    <param.FixedPointValidationChecksum>740031806</param.FixedPointValidationChecksum>
+    <param.FixedPointSourceCodeChecksum>3074216876</param.FixedPointSourceCodeChecksum>
     <param.FixedPointFunctionReplacements>
       <FunctionReplacements />
     </param.FixedPointFunctionReplacements>
@@ -892,28 +892,28 @@
     <param.DefaultFixedPointSignedness>option.DefaultFixedPointSignedness.Automatic</param.DefaultFixedPointSignedness>
     <param.FixedPointTypeProposalMode>option.FixedPointTypeProposalMode.ProposeFractionLengths</param.FixedPointTypeProposalMode>
     <param.EnableFixedPointStep>true</param.EnableFixedPointStep>
-    <var.lastFixedPointAction>option.fixedPointAction.verify</var.lastFixedPointAction>
-    <var.lastSimContext>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;SimulationContext&gt;&lt;testFiles&gt;&lt;file&gt;D:\git\meltinglab_examples\vumeter\sim\mysqrt_tb.m&lt;/file&gt;&lt;/testFiles&gt;&lt;synthetic&gt;false&lt;/synthetic&gt;&lt;/SimulationContext&gt;</var.lastSimContext>
+    <var.lastFixedPointAction>option.fixedPointAction.convert</var.lastFixedPointAction>
+    <var.lastSimContext>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;SimulationContext&gt;&lt;testFiles&gt;&lt;file&gt;C:\Users\alex8\Desktop\meltinglab_examples\vumeter\sim\mysqrt_tb.m&lt;/file&gt;&lt;/testFiles&gt;&lt;synthetic&gt;false&lt;/synthetic&gt;&lt;/SimulationContext&gt;</var.lastSimContext>
     <var.lastVerifyContext>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;SimulationContext&gt;&lt;testFiles&gt;&lt;file&gt;D:\git\meltinglab_examples\vumeter\sim\mysqrt_tb.m&lt;/file&gt;&lt;/testFiles&gt;&lt;syntheticCode&gt;&lt;/syntheticCode&gt;&lt;synthetic&gt;false&lt;/synthetic&gt;&lt;/SimulationContext&gt;</var.lastVerifyContext>
-    <param.fpDataRoot>D:\git\meltinglab_examples\vumeter\sim\codegen\mysqrt\fixpt/guiFpReport.mat</param.fpDataRoot>
-    <param.fpUserFileChecksum>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;checksum&gt;&lt;includedFiles&gt;&lt;file&gt;D:\git\meltinglab_examples\vumeter\sim\mysqrt.m&lt;/file&gt;&lt;/includedFiles&gt;&lt;value&gt;3192371812&lt;/value&gt;&lt;/checksum&gt;</param.fpUserFileChecksum>
-    <var.snapshotChecksum>1917212946</var.snapshotChecksum>
-    <param.fpLastConvertChecksum>1398433894</param.fpLastConvertChecksum>
+    <param.fpDataRoot>C:\Users\alex8\Desktop\meltinglab_examples\vumeter\sim\codegen\mysqrt\fixpt/guiFpReport.mat</param.fpDataRoot>
+    <param.fpUserFileChecksum>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;checksum&gt;&lt;includedFiles&gt;&lt;file&gt;C:\Users\alex8\Desktop\meltinglab_examples\vumeter\sim\mysqrt.m&lt;/file&gt;&lt;/includedFiles&gt;&lt;value&gt;1601348068&lt;/value&gt;&lt;/checksum&gt;</param.fpUserFileChecksum>
+    <var.snapshotChecksum>1871685795</var.snapshotChecksum>
+    <param.fpLastConvertChecksum>1400021388</param.fpLastConvertChecksum>
     <var.functionBlockSid />
     <param.fptSignedness>false</param.fptSignedness>
     <var.FixedPointAnalysisMode>option.FixedPointAnalysisMode.Sim</var.FixedPointAnalysisMode>
     <param.FixedPointUseDesignRanges>false</param.FixedPointUseDesignRanges>
     <param.gpu.Enabled>false</param.gpu.Enabled>
     <param.gpu.KernelNamePrefix />
-    <param.gpu.MallocMode>discrete</param.gpu.MallocMode>
+    <param.gpu.MallocMode />
     <param.gpu.MallocThreshold>200</param.gpu.MallocThreshold>
     <param.gpu.StackLimitPerThread>1024</param.gpu.StackLimitPerThread>
-    <param.gpu.EnableCUBLAS>true</param.gpu.EnableCUBLAS>
-    <param.gpu.EnableCUSOLVER>true</param.gpu.EnableCUSOLVER>
-    <param.gpu.EnableCUFFT>true</param.gpu.EnableCUFFT>
+    <param.gpu.EnableCUBLAS>false</param.gpu.EnableCUBLAS>
+    <param.gpu.EnableCUSOLVER>false</param.gpu.EnableCUSOLVER>
+    <param.gpu.EnableCUFFT>false</param.gpu.EnableCUFFT>
     <param.gpu.Benchmarking>false</param.gpu.Benchmarking>
-    <param.gpu.SafeBuild>false</param.gpu.SafeBuild>
-    <param.gpu.ComputeCapability>3.5</param.gpu.ComputeCapability>
+    <param.gpu.SafeBuild>true</param.gpu.SafeBuild>
+    <param.gpu.ComputeCapability />
     <param.gpu.CustomComputeCapability />
     <param.gpu.CompilerFlags />
     <var.checkIssuesGpu>false</var.checkIssuesGpu>
@@ -1022,7 +1022,7 @@
       </file>
     </fileset.inputtypes>
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\codegen\lib\mysqrt_fix_fixpt" name="mysqrt_fix.lib" optional="false">D:\git\meltinglab_examples\vumeter\sim\codegen\lib\mysqrt_fix_fixpt\mysqrt_fix.lib</file>
+      <file location="${PROJECT_ROOT}\codegen\lib\mysqrt_fix_fixpt" name="mysqrt_fix.lib" optional="false">C:\Users\alex8\Desktop\meltinglab_examples\vumeter\sim\codegen\lib\mysqrt_fix_fixpt\mysqrt_fix.lib</file>
     </build-deliverables>
     <workflow />
     <matlab>
@@ -1032,7 +1032,6 @@
         <toolbox name="matlabcoder" />
         <toolbox name="matlabhdlcoder" />
         <toolbox name="embeddedcoder" />
-        <toolbox name="gpucoder" />
       </toolboxes>
       <toolbox>
         <fixedpoint>
@@ -1053,11 +1052,6 @@
         <embeddedcoder>
           <enabled>true</enabled>
         </embeddedcoder>
-      </toolbox>
-      <toolbox>
-        <gpucoder>
-          <enabled>true</enabled>
-        </gpucoder>
       </toolbox>
     </matlab>
     <platform>
